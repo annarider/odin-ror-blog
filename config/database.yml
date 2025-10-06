@@ -81,6 +81,7 @@ test:
 production:
   primary: &primary_production
     <<: *default
+    url: <%= ENV.fetch("DATABASE_URL") %>
     database: odin_ror_blog_production
     username: odin_ror_blog
     password: <%= ENV["ODIN_ROR_BLOG_DATABASE_PASSWORD"] %>

@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+# Specify a version of ruby per Heroku's documentation [https://devcenter.heroku.com/articles/getting-started-with-rails8]
+ruby "3.4.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.3"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
